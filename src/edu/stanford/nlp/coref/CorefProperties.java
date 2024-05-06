@@ -172,7 +172,7 @@ public class CorefProperties {
   }
 
   public static String getScorerPath(Properties props) {
-    return props.getProperty("coref.scorer", "/u/scr/nlp/data/conll-2012/scorer/v8.01/scorer.pl");
+    return props.getProperty("coref.scorer", "/u/nlp/data/coref/conll-2012/scorer/v8.01/scorer.pl");
   }
 
   public static Locale getLanguage(Properties props) {
